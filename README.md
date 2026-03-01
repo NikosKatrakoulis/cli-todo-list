@@ -18,6 +18,27 @@ You can type `quit` at any time to exit and type `back` during the "Add task" fl
 
 ---
 
+## How It Works
+
+The program runs in a continuous loop displaying a menu with four options:
+
+1. Add a new task
+2. View tasks
+3. Delete tasks
+4. Quit
+
+When adding a task, the user is guided step-by-step through date,
+time, and task input. If all inputs are valid, the task is stored in memory.
+
+Tasks are saved in three internal lists:
+- Date list
+- Time list
+- Task list
+
+Each task is displayed in a numbered format for easy deletion.
+
+---
+
 ## Usage
 
 ```bash
